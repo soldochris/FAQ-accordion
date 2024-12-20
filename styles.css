@@ -58,10 +58,11 @@ main{
       gap: 16px;
       padding: 16px 0;
 
-      & div{
+      & .question{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        cursor: pointer;
   
         & h2{
           font-size: 16px;
