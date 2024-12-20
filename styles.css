@@ -68,9 +68,9 @@ main{
           font-size: 16px;
           color: var(--Dark-purple);
         }
-  
-        & img{
-          cursor: pointer;
+
+        & h2:hover{
+          color: #ae27ef;
         }
       }
 
@@ -79,7 +79,6 @@ main{
         font-size: 14px;
         font-weight: 400;
         line-height: 1.5;
-        transition: all ease 0.3s;
         display: none;
       }
 
@@ -106,5 +105,24 @@ footer{
 
   & a:hover{
     text-decoration: underline;
+    color: #ae27ef;
+  }
+}
+
+@media screen and (width > 400px) {
+  body{
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+  }
+
+  main{
+    max-width: 600px;
+
+    & .content{
+      font-size: 16px;
+    }
+  }
+
+  footer{
+    font-size: 14px;
   }
 }
